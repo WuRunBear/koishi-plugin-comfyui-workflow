@@ -5,7 +5,7 @@ import { registerWorkflowListCommand } from './commands/workflowList'
 import { registerServerListCommand } from './commands/serverList'
 import { shutdownSharedComfyUINode } from './services/sharedComfyNode'
 
-export const name = 'comfyui-client'
+export const name = 'comfyui-workflow'
 
 export interface ComfyServerConfig {
   name: string
